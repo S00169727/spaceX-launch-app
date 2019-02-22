@@ -1,0 +1,29 @@
+{
+  "name": "reactgql",
+  "version": "1.0.0",
+  "description": "App that lists SpaceX launches",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S00169727/spaceX-launch-app.git"
+  },
+  "author": "Conor Fearon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S00169727/spaceX-launch-app/issues"
+  },
+  "homepage": "https://github.com/S00169727/spaceX-launch-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
